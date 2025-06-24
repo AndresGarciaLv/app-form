@@ -7,11 +7,11 @@ import Header from '../components/Header.vue'
 
   <main class="bg-white text-gray-800 transition-colors">
     <!-- Hero principal -->
-    <section class="max-w-6xl px-6 py-20 mx-auto">
+    <section class="max-w-6xl px-6 py-30 mx-auto">
       <div class="flex flex-col md:flex-row items-center md:items-start gap-12">
         <!-- Texto -->
         <div class="md:w-1/2">
-          <h1 class="text-5xl font-bold leading-tight mb-6">
+          <h1 class="text-5xl font-bold leading-tight mb-6 mt-6">
             <span class="block">Bienvenido a</span>
             <span class="block text-blue-600">AppForm</span>
             <span class="block">Tu punto de contacto confiable</span>
