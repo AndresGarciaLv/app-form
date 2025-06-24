@@ -1,4 +1,9 @@
+<script setup lang="ts">
+import Header from '../components/Header.vue'
+</script>
+
 <template>
+   <Header />
   <section class="min-h-screen flex items-center justify-center bg-[var(--body-bg)] text-[var(--body-text)] px-5 py-16">
     <div class="w-full max-w-2xl bg-white light:bg-gray-800 p-8 rounded-2xl shadow-lg">
       <h2 class="text-3xl font-bold mb-6 text-center">Contáctanos</h2>
