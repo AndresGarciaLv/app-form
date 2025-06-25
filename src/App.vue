@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import ContactoView from './views/ContactoView.vue';
 
 </script>
 
 <template>
-<ContactoView/>
+ <router-view />
 </template>
