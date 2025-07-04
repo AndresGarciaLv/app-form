@@ -41,7 +41,7 @@ onUnmounted(() => {
         to="/"
         class="flex items-center gap-2 text-blue-700 font-bold text-xl"
       >
-        <span>AppForm</span>
+        <span>Niux Leads</span>
       </RouterLink>
 
       <!-- Menú desktop -->

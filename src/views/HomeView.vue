@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Header from '../components/Header.vue'
+import AuthHeader from '../components/AuthHeader.vue'
 </script>
 
 <template>
-  <Header />
+  <AuthHeader />
 
   <main class="bg-white text-gray-800 transition-colors">
     <!-- Hero principal -->
@@ -13,7 +13,7 @@ import Header from '../components/Header.vue'
         <div class="md:w-1/2">
           <h1 class="text-5xl font-bold leading-tight mb-6 mt-6">
             <span class="block">Bienvenido a</span>
-            <span class="block text-blue-600">AppForm</span>
+            <span class="block text-blue-600">Niux Leads</span>
             <span class="block">Tu punto de contacto confiable</span>
           </h1>
 
