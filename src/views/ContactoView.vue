@@ -230,6 +230,9 @@
 import { ref, reactive, computed, watch } from 'vue'
 import AuthHeader from '../components/AuthHeader.vue'
 import ReCaptcha from '../components/ReCaptcha.vue'
+import { config } from '../config/env';
+
+const API_BASE_URL = config.API_BASE_URL;
 // import RecaptchaTest from '../components/RecaptchaTest.vue'
 
 const recaptchaSiteKey = '6LdBk2wrAAAAAIHk39O0LNm7EYsgl0f5Naptxor3' 
@@ -312,7 +315,7 @@ const submitForm = async () => {
   isLoading.value = true
 
   try {
-    const response = await fetch('http://localhost:3000/api/formulario', {
+    const response = await fetch(''+API_BASE_URL+'/formulario', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
